@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0,
+    minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DH::Inicio</title>
+    <!--Font awesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <!--Scroll reveal CDN-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body id="body">
+    <header>
+        <div class="container"> <!-- contiene elementos que tienen navegacion, secciones, etc-->
+            <nav class="nav">
+                <div class="menu-toggle"> <!-- iconos del navigation bar-->
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <!-- LOGO DOCTOR HOUSE -->
+                <a href="index.html" class="logo"><img src="img/logo-doctorhouse.png" alt=""></a>
+                <!--TITULOS NAV BAR-->
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a  href="index.html" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#what-is-dh" onclick="changeClass()" class="nav-link">¿Qué es DH?</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#happy-homes" onclick="changeClass()" class="nav-link">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#be-a-hero" onclick="changeClass()" class="nav-link">Médicos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact"onclick="changeClass()" class="nav-link">Contacto</a>
+                    </li>
+                        <li class="nav-item-i">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item-i">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                        </li>
+                        <li class="nav-item-i">
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </li>
+                        <li class="nav-item-i">
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                 </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- FINAL DEL HEADER-->
+    <section class="doctor" id="doctor">
+        <div class="container">
+            <h2 class="sub-headline">
+                <span class="first-letter">B</span>ienvenido
+            </h2>
+            <h1 class="headline">Doctor House</h1>
+            <div class="headline-description">
+                <div class="separator"><!--flexbox para alinear con los ejes-->
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+                <div class="single-animation">
+                    <h5 style="color: #252525">A un paso de tu hogar</h5>
+                    <a href="#" class="btn cta-btn">Descarga el App</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Termina primera parte -->
+    <section class="what-is-dh" id="what-is-dh">
+        <div class="container">
+            <div class="dh-info">
+                <div class="dh-description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">¿Q</span>ué es
+                        </h2>
+                        <h1 class="headline headline-dark">Doctor House?</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p >
+                        Doctorhouse es una aplicación creada para el servicio de la salud, teniendo como prioridad atender las necesidades de las personas más vulnerables y
+                        de quienes necesiten una atención personalizada a su hogar; teniendo esto como base, y con las situación actual del país, evitaremos la aglomeración
+                        en centros públicos o privados de salud, se mejorará la atención a los pacientes con requerimientos especiales, se continuarán tratamientos y controles médicos,
+                        los usuarios tendrán más opciones y/o precios accesibles y se contará con grandes profesionales calificados para atención a domicilio.
+                    </p>
+                    <a href="#" class="btn body-btn">Conoce más</a>
+                </div>
+                <div class="dh-info-img animate right">
+                    <img src="img/doctorhousew.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN DE QUE ES DH-->
+    <section class="publish-adopt-div between">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="sub-headline">
+                        <span class="first-letter">C</span>uida
+                    </h2>
+                </div>
+                <div class="animate.bottom">
+                    <h1 class="headline headline-dark">tu salud</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN DE CUIDA TU SALUD-->
+    <section class="happy-homes" id="happy-homes">
+        <div class="container">
+            <div class="dh-info">
+                <div class="dh-description padding-right animate-left">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">C</span>lientes
+                        </h2>
+                        <h1 class="headline headline-dark">Satisfechos</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Con DoctorHouse podrás cuidar tu salud de forma  simple y personalizada, ya que la plataforma te brinda diferentes servicios de acuerdo al tipo de necesidad del paciente.
+                        Nuestros clientes tendrán la garantía de que su salud estará en buenas manos por nuestra amplia carta de doctores a disposición; además, no tendrán que realizar trámites
+                        tardíos ni salir de sus hogares para ello.
+                    </p>
+                    <a href="#" class="btn body-btn">Bájate el App</a>
+                </div>
+                <div class="image-group">
+                    <img class="animate-top" src="img/doc1.jpg" alt="">
+                    <img class="animate-top" src="img/doc2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN DE UN CLIENTES SATISFECHOS -->
+    <section class="estadisticas between">
+        <div class="container">
+            <div class="global-headline">
+                <div class="animate-top">
+                    <h2 class="sub-headline">
+                        <span class="first-letter">+</span>3.6,000,000
+                    </h2>
+                </div>
+                <div class="animate.bottom">
+                    <h1 class="headline-alt headline-light">personas mueren anualmente por no controlar su salud</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIN DE ESTADISTICAS-->
+
+    <section class="be-a-dh-user" id="be-a-hero">
+        <div class="container">
+            <div class="dh-info">
+                <div class="image-group padding-right animate-left">
+                    <img src="img/doctor1.png" alt="">
+                    <img src="img/doctor2.jpg" alt="">
+                </div>
+                <div class="dh-description animate-right">
+                    <div class="global-headline">
+                        <h2 class="sub-headline">
+                            <span class="first-letter">T</span>rabaja
+                        </h2>
+                        <h1 class="headline headline-dark">con nosotros</h1>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>
+                        Con nuestra plataforma, garantizamos a los doctores afiliados un mejor y más fácil alcance a las pacientes. Contarán con un registro individual de las personas,
+                        interfaz amigable, registro de ingresos, agendas y horarios de acuerdo a la disposición del doctor. Para más información envíanos un correo con tu historial laboral
+                        a doctoresinfo@doctorhouse.com
+                    </p>
+                    <a href="#" class="btn body-btn"> Suscríbete a Doctor House</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container" id="contact">
+            <div class="back-to-top">
+                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer-content">
+                <div class="footer-content-about animate-top">
+                    <h4>Contáctanos</h4>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <p>
+                       Puedes escrbirnos a consultas@doctorhouse.com y seguirnos en Facebook, Instagram, Twitter y Youtube.
+                        También puedes suscribirte al boletín Doctor House colocando tu correo en la casilla inferior.
+                    </p>
+                </div>
+                <div class="footer-content-divider animate-bottom">
+                    <div class="social-media">
+                        <h4>Redes sociales</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-youtube"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-container">
+                        <h4>Boletín Doctor House</h4>
+                        <form action="" class="newsletter-form">
+                            <label>
+                                <input type="text" class="newsletter-input" placeholder="Ingresa tu correo...">
+                            </label>
+                            <button class="newsletter-btn" type="submit">
+                                <i class="fas fa-envelope"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="js/main.js"></script>
+</body>
+</html>
